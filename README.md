@@ -37,5 +37,11 @@ You should also be able to access your Postgres Database at 'localhost:5432/post
 NIFI Flow data to ingest data to s3
 ============================================
 
+1. Start instance of nifi with docker 
+
+2. validate instance runnning. To do so, go https://localhost:8443/nifi/
+
+
+
 ![Alt text](./images/nifi_snow_to_s3.png?raw=true "Nifi architecture")
 
