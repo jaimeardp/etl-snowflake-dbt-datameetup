@@ -1,0 +1,13 @@
+CREATE STORAGE INTEGRATION s3_init
+TYPE = external_stage
+STORAGE_PROVIDER = 'S3'
+ENABLED = true
+STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::<account-id>:role/Role_for_Snowflakepipe'
+STORAGE_ALLOWED_LOCATIONS = ('s3://<bucket-data>');
+
+
+
+CREATE OR REPLACE STAGE stage_data_rappiV3
+url='s3://<bucket-data>'
+STORAGE_INTEGRATION = s3_int
+FILE_FORMAT = CUSTOM_DATA_FORMAT;

@@ -3,6 +3,7 @@ Overview
 
 Welcome to Astronomer! This project was generated after you ran 'astrocloud dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
 
+Using DBT for build models on Snowflake
 
 ![Alt text](./images/etl_airflow_snowflake.png?raw=true "Nifi architecture")
 
@@ -50,7 +51,7 @@ Contact
 The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support team: https://support.astronomer.io/
 
 
-Flow diagram Nifi of like ingest data to s3
+Flow diagram Nifi of like to ingest data to s3
 ============================================
 
 

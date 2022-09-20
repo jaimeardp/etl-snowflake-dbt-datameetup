@@ -6,8 +6,6 @@ astrocloud
 
 tests/**
 
-load_data/**
-
 archive/**
 
 **/custom_seeds/**
