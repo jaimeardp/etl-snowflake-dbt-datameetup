@@ -1,0 +1,16 @@
+name: mySnowflakeProject
+
+config-version: 2
+version: 0.1
+
+profile: mysnowflakedb
+log-path: /usr/local/airflow/logs
+target-path: /usr/local/airflow/target
+packages-install-path: /usr/local/airflow/module
+seed-paths: ["custom_seeds"]
+seeds:
+  mySnowflakeProject:
+    quote_columns: true 
+#deprecated
+#data-paths: ["data"]
+#modules-path

@@ -1,0 +1,13 @@
+.git
+.env
+airflow_settings.yaml
+.astrocloud
+astrocloud
+
+tests/**
+
+load_data/**
+
+archive/**
+
+**/custom_seeds/**

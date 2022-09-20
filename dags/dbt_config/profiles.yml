@@ -1,0 +1,17 @@
+mysnowflakedb:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('snow_ACCOUNT') }}"
+      user: "{{ env_var('snow_USER') }}"
+      password: "{{ env_var('snow_PASSWORD') }}"
+      database: "{{ env_var('snow_DATABASE') }}"
+      schema: RAPPI_SCHEMA
+      warehouse: "{{ env_var('snow_DWH') }}"
+      role: ACCOUNTADMIN
+
+
+config:
+  partial_parse: false
+
